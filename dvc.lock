@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  read_data:
+    cmd:
+    - python scripts/get_data.py
+    deps:
+    - path: scripts/get_data.py
+      md5: 7f3fa20b9dfd129c95828d0f1b48d3ce
+      size: 5210
+    outs:
+    - path: data/raw
+      md5: ac9443a03a25140d7678a68abdfc90ca.dir
+      size: 49109182
+      nfiles: 102
