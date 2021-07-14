@@ -1,3 +1,4 @@
 *._*
 env*
 data*
+*.ipynb_checkpoints*
