@@ -1,0 +1,8 @@
+stages:
+  read_data:
+    cmd:
+    - python scripts/get_data.py
+    deps:
+    - scripts/get_data.py
+    outs:
+    - data/raw
