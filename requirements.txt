@@ -1,0 +1,4 @@
+dvc
+pandas
+numpy
+jupyterlab
