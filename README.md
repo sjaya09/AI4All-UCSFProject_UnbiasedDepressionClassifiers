@@ -1,5 +1,5 @@
 # Contributors
-- ADD NAME HERE
+- Helen Liu (helenliu583@gmail.com)
 
 
 # Setup Instructions
