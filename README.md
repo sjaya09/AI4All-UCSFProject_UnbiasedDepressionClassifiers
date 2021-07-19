@@ -1,3 +1,7 @@
+# Contributors
+- ADD NAME HERE
+
+
 # Setup Instructions
 - Clone Repo from GitHub
 - Setup Virtual Environment
