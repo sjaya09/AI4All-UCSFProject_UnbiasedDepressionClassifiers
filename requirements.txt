@@ -2,3 +2,5 @@ dvc
 pandas
 numpy
 jupyterlab
+plotly
+jupyter-dash
