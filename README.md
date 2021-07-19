@@ -1,5 +1,5 @@
 # Contributors
-- ADD NAME HERE
+- Albert Lee (albert.lee8@ucsf.edu)
 
 
 # Setup Instructions
