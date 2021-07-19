@@ -1,8 +1,9 @@
 # Contributors
 
-- Helen Liu (helenliu583@gmail.com)
 - Albert Lee (albert.lee8@ucsf.edu)
 - Srinidhi Jayaprakash (srinidhijay10@gmail.com)
+- Helen Liu (helenliu583@gmail.com)
+- Isabelle Gunawan (gunawanisabelle@gmail.com)
 
 
 # Setup Instructions
