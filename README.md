@@ -1,5 +1,5 @@
 # Contributors
-- ADD NAME HERE
+- Loren Hung (kai5107031882@gmail.com)
 
 
 # Setup Instructions
