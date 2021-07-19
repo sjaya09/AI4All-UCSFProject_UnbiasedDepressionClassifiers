@@ -1,5 +1,5 @@
 # Contributors
-- ADD NAME HERE
+- Isabelle Gunawan (gunawanisabelle@gmail.com)
 
 
 # Setup Instructions
