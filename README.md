@@ -4,7 +4,7 @@
 - Srinidhi Jayaprakash (srinidhijay10@gmail.com)
 - Helen Liu (helenliu583@gmail.com)
 - Isabelle Gunawan (gunawanisabelle@gmail.com)
-
+- Michael Gallup
 
 # Setup Instructions
 - Clone Repo from GitHub
