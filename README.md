@@ -1,6 +1,5 @@
 # Contributors
-- ADD NAME HERE
-
+Michael Gallup
 
 # Setup Instructions
 - Clone Repo from GitHub
