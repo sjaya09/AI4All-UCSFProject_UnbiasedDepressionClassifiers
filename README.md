@@ -5,6 +5,7 @@
 - Helen Liu (helenliu583@gmail.com)
 - Isabelle Gunawan (gunawanisabelle@gmail.com)
 - Michael Gallup
+- Loren Hung (kai5107031882@gmail.com)
 
 # Setup Instructions
 - Clone Repo from GitHub
