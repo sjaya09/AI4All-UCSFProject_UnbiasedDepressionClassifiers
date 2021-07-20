@@ -4,7 +4,7 @@
 - Srinidhi Jayaprakash (srinidhijay10@gmail.com)
 - Helen Liu (helenliu583@gmail.com)
 - Isabelle Gunawan (gunawanisabelle@gmail.com)
-- Michael Gallup
+- Michael Gallup (cyg2123@gmail.com)
 - Loren Hung (kai5107031882@gmail.com)
 
 # Setup Instructions
