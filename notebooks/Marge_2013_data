@@ -1,0 +1,82 @@
+import plotly.express as px
+import pandas as pd
+import numpy as np
+
+acculturation_2013_df = pd.read_csv('../data/raw/2013-2014_acculturation.csv')
+alcohol_use_2013_df = pd.read_csv('../data/raw/2013-2014_alcohol_use.csv')
+bp_cholesterol_2013_df = pd.read_csv('../data/raw/2013-2014_bp_cholesterol.csv')
+cardiovascular_2013_df = pd.read_csv('../data/raw/2013-2014_cardiovascular.csv')
+consumer_behavior_2013_df = pd.read_csv('../data/raw/2013-2014_consumer_behavior.csv')
+demographic_2013_df = pd.read_csv('../data/raw/2013-2014_demographic.csv')
+dermatology_2013_df = pd.read_csv('../data/raw/2013-2014_dermatology.csv')
+diabetes_2013_df = pd.read_csv('../data/raw/2013-2014_diabetes.csv')
+diet_nutrition_2013_df = pd.read_csv('../data/raw/2013-2014_diet_nutrition.csv')
+rug_use_2013_df = pd.read_csv('../data/raw/2013-2014_drug_use.csv')
+early_childhood_2013_df = pd.read_csv('../data/raw/2013-2014_early_childhood.csv')
+food_security_2013_df = pd.read_csv('../data/raw/2013-2014_food_security.csv')
+health_insurance_2013_df = pd.read_csv('../data/raw/2013-2014_health_insurance.csv')
+health_status_2013_df = pd.read_csv('../data/raw/2013-2014_health_status.csv')
+hospital_access_to_care_2013_df = pd.read_csv('../data/raw/2013-2014_hospital_access_to_care.csv')
+housing_2013_df = pd.read_csv('../data/raw/2013-2014_housing.csv')
+immunization_2013_df = pd.read_csv('../data/raw/2013-2014_immunization.csv')
+income_2013_df = pd.read_csv('../data/raw/2013-2014_income.csv')
+medical_conditions_2013_df = pd.read_csv('../data/raw/2013-2014_medical_conditions.csv')
+mental_health_2013_df = pd.read_csv('../data/raw/2013-2014_mental_health.csv')
+occupation_2013_df = pd.read_csv('../data/raw/2013-2014_occupation.csv')
+oral_health_2013_df = pd.read_csv('../data/raw/2013-2014_oral_health.csv')
+pesticide_use_2013_df = pd.read_csv('../data/raw/2013-2014_pesticide_use.csv')
+# I can't believe I'm not done yet
+physical_activity_2013_df = pd.read_csv('../data/raw/2013-2014_physical_activity.csv')
+physical_functioning_2013_df = pd.read_csv('../data/raw/2013-2014_physical_functioning.csv')
+preventative_aspirin_use_2013_df = pd.read_csv('../data/raw/2013-2014_preventative_aspirin_use.csv')
+reproductive_2013_df = pd.read_csv('../data/raw/2013-2014_reproductive.csv')
+sexual_behavior_2013_df = pd.read_csv('../data/raw/2013-2014_sexual_behavior.csv')
+sleep_disorder_2013_df = pd.read_csv('../data/raw/2013-2014_sleep_disorder.csv')
+smoking_cigarette_2013_df = pd.read_csv('../data/raw/2013-2014_smoking_cigarette.csv')
+smoking_recent_tobacco_2013_df = pd.read_csv('../data/raw/2013-2014_smoking_recent_tobacco.csv')
+urology_2013_df = pd.read_csv('../data/raw/2013-2014_urology.csv')
+weight_history_2013_df = pd.read_csv('../data/raw/2013-2014_weight_history.csv')
+
+
+
+df_list = [alcohol_use_2013_df,
+            bp_cholesterol_2013_df, 
+           cardiovascular_2013_df,
+          consumer_behavior_2013_df, 
+          demographic_2013_df,
+           dermatology_2013_df,
+           diabetes_2013_df,
+           diet_nutrition_2013_df,
+           drug_use_2013_df, 
+           early_childhood_2013_df,
+           food_security_2013_df,
+           health_insurance_2013_df, 
+           health_status_2013_df, 
+           hospital_access_to_care_2013_df, 
+           housing_2013_df,
+           immunization_2013_df,
+           income_2013_df,
+           medical_conditions_2013_df,
+           mental_health_2013_df,
+           occupation_2013_df,
+           oral_health_2013_df,
+           pesticide_use_2013_df,
+           physical_activity_2013_df,
+           physical_functioning_2013_df,
+           preventative_aspirin_use_2013_df,
+           reproductive_2013_df,
+           sexual_behavior_2013_df,
+           sleep_disorder_2013_df,
+           smoking_cigarette_2013_df,
+           smoking_recent_tobacco_2013_df,
+           urology_2013_df,
+           weight_history_2013_df, 
+          ]
+
+for df in df_list:
+    all_2013_df = all_2013_df.merge(df, how='outer')
+    
+    
+all_2013_df
+
+all_2013_df.to_csv('all_2013_df.csv', index=False)
