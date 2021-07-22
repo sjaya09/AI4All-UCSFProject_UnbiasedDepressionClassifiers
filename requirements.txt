@@ -4,3 +4,4 @@ numpy
 jupyterlab
 plotly
 jupyter-dash
+scikit-learn
