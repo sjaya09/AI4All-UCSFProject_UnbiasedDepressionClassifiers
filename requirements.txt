@@ -4,3 +4,5 @@ numpy
 jupyterlab
 plotly
 jupyter-dash
+matplotlib
+seaborn
