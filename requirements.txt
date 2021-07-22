@@ -5,3 +5,5 @@ jupyterlab
 plotly
 jupyter-dash
 scikit-learn
+matplotlib
+seaborn
