@@ -6,3 +6,14 @@ stages:
     - scripts/get_data.py
     outs:
     - data/raw
+  merge_concatenate:
+    cmd:
+    - python scripts/merge_concatenate.py
+    deps:
+    - scripts/merge_concatenate.py
+    - data/raw
+    outs:
+    - notebooks/all_2011_df.csv
+    - notebooks/all_2013_df.csv
+    - notebooks/all_2015_df.csv
+    - notebooks/all_data_df.csv
