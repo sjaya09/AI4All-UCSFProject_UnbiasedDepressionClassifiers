@@ -32,3 +32,11 @@ Add some info about the page
 ## What is the Project?
 
 Add info here
+
+
+
+![](images/brain.jpg)
+[link to image](https://pixabay.com/illustrations/brain-mind-psychology-idea-drawing-2062057/)
+
+[link to just-the-docs github](https://github.com/pmarsceill/just-the-docs)
+[link to just-the-docs documentation](https://pmarsceill.github.io/just-the-docs/)

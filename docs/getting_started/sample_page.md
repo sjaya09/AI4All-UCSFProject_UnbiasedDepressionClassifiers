@@ -28,7 +28,3 @@ We'll now install the Python libraries we need into *env*. A list of the once we
 ```
 pip install -r requirements.txt --upgrade
 ```
-
-
-![](images/brain.jpg)
-[link to image](https://pixabay.com/illustrations/brain-mind-psychology-idea-drawing-2062057/)
