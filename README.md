@@ -22,7 +22,7 @@ git config --global user.email "MY_NAME@example.com"
 
 Using command line (terminal), Navigate to where you would like to store the repository locally using the `cd` command, and enter the following command:
 ```
-git clone https://github.com/albemlee/ai4all_nhanes.git
+git clone https://github.com/isabelle926/ai4all_nhanes.git
 ```
 
 Once you have cloned the repo, you can enter it using `cd `.

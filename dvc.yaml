@@ -17,3 +17,35 @@ stages:
     - notebooks/all_2013_df.csv
     - notebooks/all_2015_df.csv
     - notebooks/all_data_df.csv
+  final_lda_results:
+    cmd:
+    - python scripts/final_lda_results.py
+    deps:
+    - scripts/final_lda_results.py
+    - notebooks
+    outs:
+    - notebooks/final_lda_results.csv
+  final_lr_results:
+    cmd:
+    - python scripts/final_lr_results.py
+    deps:
+    - scripts/final_lr_results.py
+    - notebooks
+    outs:
+    - notebooks/final_lr_results.csv
+  final_naive_bayes_results:
+    cmd:
+    - python scripts/final_naive_bayes_results.py
+    deps:
+    - scripts/final_naive_bayes_results.py
+    - notebooks
+    outs:
+    - notebooks/final_nb_results.csv
+  final_random_forest_results:
+    cmd:
+    - python scripts/final_random_forest_results.py
+    deps:
+    - scripts/final_random_forest_results.py
+    - notebooks
+    outs:
+    - notebooks/final_rf_results.csv
