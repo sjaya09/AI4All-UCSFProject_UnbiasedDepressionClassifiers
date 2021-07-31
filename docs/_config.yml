@@ -4,7 +4,7 @@ remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 aux_links:
   "GitHub Repository":
-    - "https://github.com/albemlee/siads697"
+    - "https://github.com/isabelle926/siads697"
 aux_links_new_tab: true
 markdown: kramdown
 back_to_top: true
