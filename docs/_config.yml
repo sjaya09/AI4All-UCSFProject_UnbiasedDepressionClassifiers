@@ -1,5 +1,5 @@
-title: "SIADS697 Project Documentation"
-description: "Documenting procedures and results related to MADS Capstone Project."
+title: "AI4ALL NHANES Project Documentation"
+description: "Documenting procedures and results related to AI4ALL NHANESProject."
 remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 aux_links:
@@ -9,4 +9,3 @@ aux_links_new_tab: true
 markdown: kramdown
 back_to_top: true
 back_to_top_text: "Back to top"
-footer_content: "For more information about the project, you may reach out to <a href=\"jcreigh@umich.edu\">Jim Creighton</a>, <a href=\"albemlee@umich.edu\">Albert Lee</a>m or <a href=\"jcreigh@umich.edu\"><a href=\"maxts@umich.edu\">Max Tsisyk</a></a>"
